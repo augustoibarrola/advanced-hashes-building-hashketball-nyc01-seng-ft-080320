@@ -13,8 +13,9 @@ def game_hash
         {steals: ""},
         {blocks: ""},
         {slam_dunks: ""}
-    ],
-    ;away: {
+    ]
+  },
+    away: {
       team_name: "",
       colors: Array.new,
       players: [
@@ -30,5 +31,4 @@ def game_hash
       ]
     }
   }
-}
 end
