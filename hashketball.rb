@@ -1,8 +1,8 @@
 def game_hash
   game_hash = {
     home: {
-      team_name: "",
-      colors: Array.new,
+      team_name: "Brooklyn Nets",
+      colors: ["Black", "White"],
       players: [
         {player_name: ""},
         {number: ""},
@@ -16,8 +16,8 @@ def game_hash
     ]
   },
     away: {
-      team_name: "",
-      colors: Array.new,
+      team_name: "Charlotte Hornets",
+      colors: ["Turquoise", "Purple"],
       players: [
         {player_name: ""},
         {number: ""},
