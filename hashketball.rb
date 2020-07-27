@@ -1,4 +1,4 @@
 def game_hash
-  return_hash = Hash.new
-  return_hash[:home] = {}
+  game_hash = Hash.new
+  game_hash[:home] = {}
 end
