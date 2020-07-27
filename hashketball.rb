@@ -14,7 +14,7 @@ def game_hash
         {blocks: ""},
         {slam_dunks: ""}
     ],
-    away: {
+    ;away: {
       team_name: "",
       colors: Array.new,
       players: [
