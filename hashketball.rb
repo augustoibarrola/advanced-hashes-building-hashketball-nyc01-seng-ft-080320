@@ -1,3 +1,4 @@
+require 'pry'
 def game_hash
   game_hash = {
     home: {
@@ -50,7 +51,7 @@ def game_hash
         {blocks: 11},
         {slam_dunks: 1}]
   ]
-  },
+  }, binding.pry
     away: {
       team_name: "Charlotte Hornets",
       colors: ["Turquoise", "Purple"],
